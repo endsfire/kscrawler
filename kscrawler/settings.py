@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'kscrawler.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'kscrawler (+dyzs88@yahoo.com)'
+USER_AGENT = 'kscrawler'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
