@@ -12,10 +12,10 @@ from sqlalchemy import create_engine, Column, Integer, Float, String, Date, Date
 DATABASE = {
 	'drivername' : 'postgres',
 	'host' : 'localhost',
-	'port' : '5432',
-	'username' : 'kscrawl',
-	'password' : 'kickcrawl',
-	'database' : 'kickstarter'
+	'port' : 'port',
+	'username' : 'username',
+	'password' : 'password',
+	'database' : 'database'
 }
 
 DeclarativeBase = declarative_base(metadata=MetaData(schema='crawler'))
